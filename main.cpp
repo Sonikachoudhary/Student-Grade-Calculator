@@ -2,6 +2,12 @@
 #include <string>
 using namespace std;
 int main() {
+
+int numberOfStudents;
+cout << "Enter number of students:";
+cin >> numberOfStudents;
+
+for (int i = 1;i <= numberOfStudents;i++){
   string name;
   cout<< "Enter student name:";
   cin>> name;
@@ -54,6 +60,6 @@ int main() {
     cout<< "Result: Pass"<<endl;
   else
     cout<< "Result: Fail" <<endl;       
-  
+    }
   return 0;
 }
