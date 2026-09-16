@@ -6,6 +6,8 @@ int main() {
   cout<< "Enter student name:";
   cin>> name;
   int Maths, Physics, Chemistry, Computer, English;
+  bool valid = true;
+  
   cout<<" Enter marks for Maths:";
   cin>> Maths;
   cout<< "Enter marks for Physics:";
@@ -16,6 +18,20 @@ int main() {
   cin>> Computer;
   cout<< " Enter marks for English:";
   cin>> English;
+
+  if (Maths < 0 || Maths > 100 ||
+    Physics < 0 || Physics > 100 ||
+    Chemistry < 0 || Chemistry > 100 ||
+    Computer < 0 || Computer > 100 ||
+    English < 0 || English > 100) {
+
+    cout << "Invalid marks! Marks should be between 0 and 100." <<endl;
+    valid = false;
+    }
+
+    if (!valid)
+    return 0;
+    
   int total= Maths + Physics + Chemistry + Computer + English;
   cout<< "Total Marks:" << total << endl;
   float percentage = (total/500.0)*100;
