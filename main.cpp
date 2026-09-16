@@ -15,6 +15,8 @@ int main() {
   cin>> Computer;
   cout<< " Enter marks for English:";
   cin>> English;
+  int total= maths + physics + chemistry + computer + english;
+  cout<< "Total Marks:" <<total<<endl;
     
   return 0;
 }
