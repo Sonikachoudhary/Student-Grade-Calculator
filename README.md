@@ -10,7 +10,7 @@ A simple C++ program that calculates a student's total marks, percentage, grade,
 - Calculates percentage
 - Assigns a grade
 - Displays Pass or Fail result
-
+- Validates marks between 0 and 100
 ## Technologies Used
 
 - C++
