@@ -4,8 +4,23 @@ using namespace std;
 int main() {
 
 int numberOfStudents;
+int choice;
+cout << "\n====Student Grade calculator====\n";
+cout << "1. Calculate Student Result\n";
+cout<< "2. Exit\n";
+cout << "Enter your choice:";
+cin >> choice;
+
 cout << "Enter number of students:";
 cin >> numberOfStudents;
+if (choice ==2){
+cout << "Thank you for using student Grade Calculator!" <<endl;
+return 0;
+}
+if (choice !=1){
+cout<<"Invalid choice!"<<endl;
+return 0;
+}
 
 for (int i = 1;i <= numberOfStudents;i++){
   string name;
