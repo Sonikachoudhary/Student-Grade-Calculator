@@ -33,7 +33,10 @@ int main() {
   else
           grade = 'F';
   cout<<"Grade:"<<grade<<endl;
-        
+  if (percentage>=40)
+    cout<< "Result: Pass"<<endl;
+  else
+    cout<< "Result: Fail" <<endl;       
   
   return 0;
 }
