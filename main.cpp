@@ -16,7 +16,10 @@ int main() {
   cout<< " Enter marks for English:";
   cin>> English;
   int total= maths + physics + chemistry + computer + english;
-  cout<< "Total Marks:" <<total<<endl;
-    
+  cout<< "Total Marks:" << total << endl;
+  float percentage = (total/500.0)*100;
+  
+    cout<< "Percentage:" << percentage <<"%" <<endl;
+  
   return 0;
 }
