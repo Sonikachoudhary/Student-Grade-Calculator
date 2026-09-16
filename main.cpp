@@ -1,10 +1,11 @@
 #include <iostream>
+#include <string>
 using namespace std;
 int main() {
   string name;
   cout<< "Enter student name:";
   cin>> name;
-  int maths, physics, chemistry, computer, english;
+  int Maths, Physics, Chemistry, Computer, English;
   cout<<" Enter marks for Maths:";
   cin>> Maths;
   cout<< "Enter marks for Physics:";
@@ -15,7 +16,7 @@ int main() {
   cin>> Computer;
   cout<< " Enter marks for English:";
   cin>> English;
-  int total= maths + physics + chemistry + computer + english;
+  int total= Maths + Physics + Chemistry + Computer + English;
   cout<< "Total Marks:" << total << endl;
   float percentage = (total/500.0)*100;
   
