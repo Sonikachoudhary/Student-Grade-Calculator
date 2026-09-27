@@ -5,7 +5,7 @@ int main() {
 
 int numberOfStudents;
 int choice;
-cout << "\n====Student Grade calculator====\n";
+cout << "\n====Student grade calculator====\n";
 cout << "1. Calculate Student Result\n";
 cout<< "2. Exit\n";
 cout << "Enter your choice:";
